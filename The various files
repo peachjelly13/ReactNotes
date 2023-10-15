@@ -1,0 +1,11 @@
+- Here we use the arrow notation which is as follows:
+const Header = () =>{
+    return(
+        <header>
+            <h1>Header</h1>
+        </header>
+    )
+}
+export default Header
+
+- The main javascript file is App.js and the main css file is App.css

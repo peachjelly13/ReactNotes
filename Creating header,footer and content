@@ -1,0 +1,49 @@
+//Content
+const Content = () =>{
+    return (
+        <main>
+            <h1>Content</h1>
+        </main>
+
+    );
+}
+export default Content;
+
+//Footer
+const Footer = () =>{
+    return (
+        <footer>
+            <h1>Footer</h1>
+        </footer>
+
+    );
+}
+export default Footer;
+
+//Header
+const Header = () =>{
+    return(
+        <header>
+            <h1>Header</h1>
+        </header>
+    );
+}
+export default Header
+
+Now how do we include this in the main file which is App.js
+import * as React from 'react';
+import './App.css';
+import Header from './Header';
+import Content from './Content';
+import Footer from './Footer';
+function app(){
+    return(
+        <div>
+          <Header/>
+          <Content/>
+          <Footer/>
+        </div>
+    );
+
+}
+export default app;

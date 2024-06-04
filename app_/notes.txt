@@ -1,0 +1,3 @@
+#Steps to configure
+-npm create vite
+-npm install
